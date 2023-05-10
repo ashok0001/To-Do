@@ -58,7 +58,8 @@ const TodoList = () => {
 
   return (
     <div className='flex flex-col items-center py-20 bg-[#6901af] min-h-screen'>
-        <form onSubmit={handleSubmit} className='w-full max-w-4xl'>
+        <form onSubmit={handleSubmit} className='w-full max-w-4xl bg-[#c814ff] border rounded-md p-20'>
+            <h1 className='pb-10 text-white font-bold text-3xl'>To Do List</h1>
       <div className="mb-4">
         <input
           type="text"
